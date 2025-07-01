@@ -56,7 +56,7 @@ This will start:
 - `db`: A PostgreSQL container
 
 Odoo will be accessible at:  
-👉 http://localhost:8069
+ http://localhost:8059
 
 ---
 
