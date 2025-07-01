@@ -8,7 +8,7 @@ This repository contains a Dockerized setup for running **Odoo 18** with the **O
 
 ```
 openEduCat/
-├── addons/               # Place for custom/additional addons
+├── addons/               # OpenEducat modules/addons
 ├── config/
 │   └── odoo.conf         # Configuration file for Odoo
 ├── docker-compose.yaml   # Docker Compose file to set up Odoo and PostgreSQL
