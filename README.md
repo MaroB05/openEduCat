@@ -76,10 +76,10 @@ If everything is working, you should see logs from Odoo and PostgreSQL indicatin
 
 | Task                          | Command                                     |
 |-------------------------------|---------------------------------------------|
-| Start services                | `docker-compose up -d`                      |
-| Stop services                 | `docker-compose down`                       |
-| Rebuild containers            | `docker-compose up --build --force-recreate`|
-| View logs                     | `docker-compose logs -f`                    |
+| Start services                | `docker compose up -d`                      |
+| Stop services                 | `docker compose down`                       |
+| Rebuild containers            | `docker compose up --build --force-recreate`|
+| View logs                     | `docker compose logs -f`                    |
 | Access Odoo container shell  | `docker exec -it odoo bash`                 |
 | Access PostgreSQL shell       | `docker exec -it db psql -U odoo`           |
 
