@@ -75,7 +75,7 @@ If everything is working, you should see logs from Odoo and PostgreSQL indicatin
 | Rebuild containers            | `docker compose up --build --force-recreate`|
 | View logs                     | `docker compose logs -f <container-name>`                    |
 | Access Odoo container shell  | `docker exec -it Odoo bash`                 |
-| Access PostgreSQL shell       | `docker exec -it Odoo-DB psql -U Odoo -d <Database Name>`           |
+| Access PostgreSQL shell       | `docker exec -it Odoo-DB psql -U odoo -d <Database Name>`           |
 
 ---
 
