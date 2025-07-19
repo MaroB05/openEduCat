@@ -36,7 +36,6 @@
         'security/op_admission_security.xml',
         'security/ir.model.access.csv',
         'data/admission_sequence.xml',
-        'data/parameter_data.xml',
         'views/admission_register_view.xml',
         'views/admission_view.xml',
         'report/report_admission_analysis.xml',

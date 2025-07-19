@@ -500,9 +500,4 @@ class OpStudentCourseInherit(models.Model):
         domain=[('type', '=', 'service')], tracking=True)
 
 
-class ResConfigSettings(models.TransientModel):
-    _inherit = 'res.config.settings'
 
-    enable_create_student_user = fields.Boolean(
-        config_parameter='openeducat_admission.enable_create_student_user',
-        string='Create Student User')

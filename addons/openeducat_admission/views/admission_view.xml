@@ -333,30 +333,5 @@
             </field>
         </record>
 
-    <record id="res_config_settings_view_user" model="ir.ui.view">
-        <field name="name">res.config.settings.view.form.admission</field>
-        <field name="model">res.config.settings</field>
-        <field name="priority" eval="40"/>
-        <field name="inherit_id"
-               ref="openeducat_core.res_config_settings_view_form_core"/>
-        <field name="arch" type="xml">
-            <xpath expr="//div[contains(@invisible, 'module_openeducat_admission')]/div[1]"
-                   position="inside">
-                <div class="col-12 col-md-1 col-lg-6 mb16">
-                    <div class="o_setting_left_pane">
-                        <field
-                                name="enable_create_student_user"/>
-                    </div>
-                    <div class="o_setting_right_pane">
-                        <label
-                                for="enable_create_student_user"/>
-                                <span class="fa fa-info-circle" title="Openeducat Enterprise Module"/>
-                        <div class="text-muted">Enable this option to create a student
-                            user
-                        </div>
-                    </div>
-                </div>
-            </xpath>
-        </field>
-    </record>
+
 </odoo>
