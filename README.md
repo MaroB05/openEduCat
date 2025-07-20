@@ -2,6 +2,10 @@
 
 A comprehensive student verification module for OpenEduCat 18, designed to manage and verify high school student credentials and academic records.
 
+**Developed by: Mostafa Hisham**  
+**GitHub: [@Mostafa-Hisham0](https://github.com/Mostafa-Hisham0)**  
+**Date: July 2024**
+
 ## 🎯 Features
 
 - **Student Verification Management**: Create and manage student verification records
@@ -191,5 +195,18 @@ For support and questions:
 
 ---
 
-**Developed for OpenEduCat 18.0** 🎓
+**Developed by Mostafa Hisham for OpenEduCat 18.0** 🎓
+
+---
+
+## 👨‍💻 **Developer Information**
+
+- **Name:** Mostafa Hisham
+- **GitHub:** [@Mostafa-Hisham0](https://github.com/Mostafa-Hisham0)
+- **Email:** s-mostafa.ahmed@zewailcity.edu.eg
+- **Project:** OpenEduCat Student Verification Module
+- **Version:** 1.3.0
+- **Development Date:** July 2024
+
+**This module was developed as part of the OpenEduCat ecosystem to provide comprehensive student verification capabilities for educational institutions.**
 
