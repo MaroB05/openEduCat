@@ -175,7 +175,6 @@ class StudentVerification(models.Model):
 4. Test thoroughly
 5. Submit a pull request
 
-## 📝 License
 
 This module is part of the OpenEduCat ecosystem and follows the same licensing terms.
 
